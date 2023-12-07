@@ -1,6 +1,6 @@
 # Changelog
 
-## [x.x.x] - xxxx-xx-xx
+## [x.x.x] - YEAR-MM-DD
 
 ### Added
 
@@ -14,7 +14,7 @@
 
 - To be filled with stuff that was fixed.
 
-## [0.1.0] - 2023-06-12
+## [0.1.0] - 2023-12-07
 
 ### Added
 
