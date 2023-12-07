@@ -4,6 +4,7 @@ version = "v0.1.0"
 description = "Simple and effective Python project template"
 authors = ["Juan Rivero Sesma <jriverosesma@gmail.com>"]
 readme = "README.md"
+license = "MIT"
 include = ["NOTICES", "LICENSE", "CHANGELOG.md"]
 classifiers = [
     "Programming Language :: Python :: 3",
