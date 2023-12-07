@@ -5,8 +5,9 @@ repos:
     rev: v3.2.0
     hooks:
     -   id: trailing-whitespace
+        exclude: ^README\.md$
     -   id: end-of-file-fixer
-        exclude: .gitattributes, ^README\.md$
+        exclude: .gitattributes
     -   id: check-yaml
 -   repo: https://github.com/psf/black
     rev: 23.1.0

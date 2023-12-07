@@ -47,6 +47,9 @@ line-length = 120
 [tool.isort]
 profile = "black"
 line_length = 120
+known_first_party = ["my_package"]
+import_heading_firstparty = "My Package"
+
 
 [tool.bumpver]
 current_version = "v0.1.0"
@@ -63,4 +66,11 @@ commit_message  = "Bump version: {old_version} → {new_version}"
 ]
 "my_package/__init__.py" = [
     '^__version__ = "{version}"$',
+]
+
+[tool.pytest.ini_options]
+minversion = "7.4"
+markers = [
+    "slow: Slow tests",
+    "failing: Tests which need to be fixed",
 ]
