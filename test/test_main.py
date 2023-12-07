@@ -1,4 +1,6 @@
 # My Package
 from my_package import main
 
-assert main() is None
+
+def test_main():
+    assert main.main() is None
