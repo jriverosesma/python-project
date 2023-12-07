@@ -8,10 +8,10 @@
 ________________________________________________________
 
 ## Table of contents
-1. [Overview](README.md#1-overview)
-2. [Installation](README.md#2-installation)
-    2.1 [Users](README.md#2.1-users)
-    2.2 [Developers](README.md#2.2-developers)
+1. [Overview](README.md#1-overview)  
+2. [Installation](README.md#2-installation)  
+    2.1 [Users](README.md#2.1-users)  
+    2.2 [Developers](README.md#2.2-developers)  
 3. [Features](README.md#3-features)
 
 ## 1. Overview
