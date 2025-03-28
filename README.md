@@ -42,6 +42,7 @@ pre-commit install
 - Sample `README.md` with badges and table of contents.
 - Lightweight pre-commits: automatic formatting.
 - Simple and generic unit tests and release workflows.
+- VSCode Dev Containers support.
 - Issue and PR templates.
 - Sample `.gitignore` and `.gitattributes`.
 - Sample `.editorconfig`.
