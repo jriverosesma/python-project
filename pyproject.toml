@@ -25,6 +25,9 @@ python = "^3.10"
 
 [project.optional-dependencies]
 dev = [
+  "black>=25.1,<26.0",
+  "isort>=6.0,<7.0",
+  "flake8>=7.1,<8.0",
   "bumpver>=2024.1130,<2025.0",
   "pre-commit>=4.2.0,<5.0.0",
   "pip-licenses>=5.0.0,<6.0.0",
@@ -33,10 +36,8 @@ dev = [
   "pytest-sugar>=1.0,<2.0"
 ]
 
-[tool.poetry.extras]
-dev = ["black", "bumpver", "isort", "flake8", "pre-commit", "pip-licenses"]
-test = ["pytest", "pytest-mock", "pytest-sugar"]
-all = ["black", "bumpver", "isort", "flake8", "pre-commit", "pip-licenses", "pytest", "pytest-mock", "pytest-sugar"]
+[tool.setuptools.packages.find]
+include = ["my_package"]
 
 [build-system]
 requires = ["poetry-core"]
@@ -54,10 +55,9 @@ line_length = 120
 known_first_party = ["my_package"]
 import_heading_firstparty = "My Package"
 
-
 [tool.bumpver]
-current_version = "v0.1.0"
-version_pattern = "vMAJOR.MINOR.PATCH"
+current_version = "0.1.0"
+version_pattern = "MAJOR.MINOR.PATCH"
 commit          = true
 tag             = true
 push            = true
