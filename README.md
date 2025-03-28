@@ -32,7 +32,7 @@ pip install my-package
 conda create -y -n my-package python=3.10 --no-default-packages
 conda activate my-package
 python -m pip install --upgrade pip
-pip install -e .[all]
+pip install -e .[dev]
 pre-commit install
 ```
 
