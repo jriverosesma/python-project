@@ -5,7 +5,7 @@ description = "Simple and effective Python project template"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { file = "LICENSE" }
-keywords = ["dino", "chrome", "bot", "game", "automatic"]
+keywords = ["python", "project", "template", "modern"]
 authors = [
   { name = "Juan Rivero Sesma", email = "jriverosesma@gmail.com" }
 ]
