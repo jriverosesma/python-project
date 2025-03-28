@@ -23,9 +23,5 @@ ENV PATH="/opt/conda/bin:$PATH"
 RUN conda create -y -n my-package python=3.10 --no-default-packages && \
     /opt/conda/envs/my-package/bin/pip install --upgrade pip
 
-# Install package and pre-commit
-RUN /opt/conda/envs/my-package/bin/pip install -e .[all] && \
-    /opt/conda/envs/my-package/bin/pre-commit install
-
 # Activate conda env and run your script
 CMD ["/opt/conda/envs/my-package/bin/my_package_script"]

@@ -17,5 +17,6 @@
                 "ms-azuretools.vscode-docker"
             ]
         }
-    }
+    },
+    "postCreateCommand": "/opt/conda/envs/my-package/bin/pip install -e .[dev] && /opt/conda/envs/my-package/bin/pre-commit install"
 }
