@@ -2,7 +2,7 @@
     "name": "My Package Development Environment",
     "dockerFile": "../Dockerfile",
     "workspaceFolder": "/app/${localWorkspaceFolderBasename}",
-    "workspaceMount": "source=${localWorkspaceFolder}, target=/app/${localWorkspaceFolderBasename}, type=bind",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/app/${localWorkspaceFolderBasename},type=bind",
     "customizations": {
         "vscode": {
             "settings": {
