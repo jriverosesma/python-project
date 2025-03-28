@@ -1,4 +1,4 @@
-[tool.poetry]
+[project]
 name = "my-package"
 version = "0.1.0"
 description = "Simple and effective Python project template"
@@ -22,7 +22,6 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.10"
-
 
 [project.optional-dependencies]
 dev = [
