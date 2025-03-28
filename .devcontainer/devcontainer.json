@@ -7,7 +7,8 @@
         "vscode": {
             "settings": {
                 "editor.formatOnSave": true,
-                "editor.defaultFormatter": "ms-python.black-formatter"
+                "editor.defaultFormatter": "ms-python.black-formatter",
+                "python.defaultInterpreterPath": "/opt/conda/envs/my-package/bin/python"
             },
             "extensions": [
                 "GitHub.copilot",
@@ -18,5 +19,5 @@
             ]
         }
     },
-    "postCreateCommand": "/opt/conda/envs/my-package/bin/pip install -e .[dev] && /opt/conda/envs/my-package/bin/pre-commit install"
+    "postCreateCommand": "/opt/conda/envs/my-package/bin/pip install -e .[dev] && /opt/conda/envs/my-package/bin/pre-commit install && conda init"
 }
